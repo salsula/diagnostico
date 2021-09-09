@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-    --figura: #366edf;
+    --figura: #f9f9f9;
     --fondo: #1c1c1c;
     /* ¿Qué valor de contrast-ratio está utilizando? Revise en https://contrast-ratio.com/ */
 }
@@ -20,12 +20,8 @@ body {
 }
 
 a {
-    color: #2c2f33;
+    color: #f9f9f9;
     margin-right: 3vw;
-}
-
-a:hover {
-    color: #366edf;
 }
 
 header, main, footer {
@@ -35,6 +31,7 @@ header, main, footer {
 }
 
 header h1 {
+    color: #366edf;
     font-size: calc(2rem + 1vw);
 }
 
@@ -57,9 +54,10 @@ footer a {
     border-radius: 0.3rem;
     padding: 0.5rem 0.75rem;
     box-shadow: 0px 0px 3px #000;
-    background: white;
+    background: #23272a;
 }
 
 footer a:hover{
     box-shadow: 0px 0px 1px #000;
+    background: #2c2f33;
 }
