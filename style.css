@@ -42,14 +42,6 @@ main p{
     font-size: calc(1rem + 1vw);
 }
 
-/*test*/
-footer {
-    position: absolute;
-    bottom: 0;
-    text-align: right;
-}
-/*test*/
-
 footer {
     position: absolute;
     bottom: 0;
